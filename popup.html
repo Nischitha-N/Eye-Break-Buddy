@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 14px;
+      width: 240px;
+      background-color: #1e1e1e;
+      color: #eee;
+      border-radius: 12px;
+    }
+
+    label {
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    input[type="checkbox"] {
+      transform: scale(1.5);
+      margin-right: 10px;
+    }
+
+    .stats {
+      margin-top: 10px;
+      padding: 10px;
+      background: #2a2a2a;
+      border-radius: 10px;
+    }
+
+    .stats p {
+      margin: 4px 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <label>
+    <input type="checkbox" id="toggleBreak" />
+    Enable Break Reminders
+  </label>
+
+ <div class="stats">
+  <p><img src="flame.png" width="16" style="vertical-align: middle; margin-right: 6px;" /> Current Streak: <span id="currentStreak">0</span></p>
+  <p><img src="trophy.png" width="16" style="vertical-align: middle; margin-right: 6px;" /> Highest Streak: <span id="highestStreak">0</span></p>
+  <p><img src="bar-graph.png" width="16" style="vertical-align: middle; margin-right: 6px;" /> Total Breaks: <span id="totalBreaks">0</span></p>
+</div>
+
+
+  <script src="popup.js"></script>
+</body>
+</html>

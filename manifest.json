@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "Eye Break Buddy",
+  "version": "1.0",
+  "description": "Reminds you to take eye breaks with customizable options.",
+  "permissions": [
+    "alarms",
+    "storage",
+    "tabs",
+    "idle"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "eye.png",
+      "48": "eye.png",
+      "128": "eye.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+     "resources": ["*.png", "*.jpg", "*.jpeg"],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
