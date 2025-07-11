@@ -46,7 +46,6 @@ function showBreakOverlay() {
     "🧘‍♀️ Be mindful — eyes need it too."
   ];
 
-  // Pause all videos
   document.querySelectorAll('video').forEach(video => {
     if (!video.paused) {
       video.pause();

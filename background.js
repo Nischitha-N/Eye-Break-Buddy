@@ -1,4 +1,4 @@
-// ✅ One clean definition
+
 function sendBreakReminder() {
   console.log("🔔 Sending break reminder...");
   chrome.storage.sync.get(['breakEnabled'], ({ breakEnabled }) => {
@@ -21,11 +21,10 @@ function sendBreakReminder() {
   });
 }
 
-// ⏰ Alarm setup
 chrome.alarms.create("breakReminder", { periodInMinutes: 20 }); // for testing
 console.log("⏰ Alarm created (every 6 seconds)");
 
-// 🔁 Alarm listener
+
 chrome.alarms.onAlarm.addListener((alarm) => {
   if (alarm.name === "breakReminder") {
     console.log("🔁 Alarm triggered");

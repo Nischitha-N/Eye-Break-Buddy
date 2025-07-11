@@ -3,7 +3,6 @@ const currentStreak = document.getElementById('currentStreak');
 const highestStreak = document.getElementById('highestStreak');
 const totalBreaks = document.getElementById('totalBreaks');
 
-// Load settings and stats
 chrome.storage.sync.get(['breakEnabled', 'currentStreak', 'highestStreak', 'totalBreaks'], (data) => {
   toggle.checked = data.breakEnabled !== false;
 
@@ -12,7 +11,7 @@ chrome.storage.sync.get(['breakEnabled', 'currentStreak', 'highestStreak', 'tota
   totalBreaks.textContent = data.totalBreaks || 0;
 });
 
-// Save toggle state
+
 toggle.addEventListener('change', () => {
   chrome.storage.sync.set({ breakEnabled: toggle.checked });
 });
