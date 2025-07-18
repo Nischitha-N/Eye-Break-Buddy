@@ -1,7 +1,7 @@
 const mascots = [
   "bird", "cat", "duck", "flame", "forest", "fox", "frog", "koala", "lake",
   "lotus", "moon", "mountain", "night", "ocean", "panda", "penguin",
-  "sakura", "sloth", "sun", "sunflower", "sunrise", "turtle", "whale"
+  "sakura", "sloth", "sun", "sunflower", "sunrise", "turtle", "whale'"
 ];
 
 const puns = [
