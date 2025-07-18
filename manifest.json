@@ -5,7 +5,7 @@
   "description": "Reminds you to take breaks with fun animal mascots and motivation.",
   "permissions": ["alarms", "storage", "tabs", "scripting","idle"],
   "background": {
-    "service_worker": "backgroundjs"
+    "service_worker": "background.js"
   },
   "action": {
     "default_popup": "popup.html",
