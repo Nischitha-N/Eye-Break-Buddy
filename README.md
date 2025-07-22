@@ -65,6 +65,6 @@ This extension makes that rule *fun*, *cute*, and *impossible to ignore*.
 ## 💖 Credits
 
 - Mascot PNGs from Flaticon(G-CAT,Freepik)
-- Built with ☕ and love by [Your Name]
+- Built with love by [Nischitha]
 
 ---
