@@ -57,7 +57,7 @@ chrome.runtime.onMessage.addListener((req) => {
     const text = puns[Math.floor(Math.random() * puns.length)];
 
     const img = document.createElement("img");
-    img.src = chrome.runtime.getURL(`${mascot}.png`);
+    img.src = chrome.runtime.getURL(`assets/Images/${mascot}.png`);
     img.style.width = "150px";
     img.style.marginBottom = "15px";
 
@@ -79,7 +79,9 @@ chrome.runtime.onMessage.addListener((req) => {
     const removeOverlay = () => {
       overlay.remove();
       mediaEls.forEach((el) => el.play());
-      new Audio(chrome.runtime.getURL("chime.mp3")).play();
+
+      const chime = new Audio(chrome.runtime.getURL("assets/audio/chime.mp3"));
+      chime.play();
 
       chrome.storage.sync.get(["streak", "totalBreaks"], ({ streak = 0, totalBreaks = 0 }) => {
         chrome.storage.sync.set({

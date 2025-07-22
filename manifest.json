@@ -3,16 +3,16 @@
   "name": "Eye Break Buddy",
   "version": "1.1",
   "description": "Reminds you to take breaks with fun animal mascots and motivation.",
-  "permissions": ["alarms", "storage", "tabs", "scripting","idle"],
+  "permissions": ["alarms", "storage", "tabs", "scripting", "idle"],
   "background": {
     "service_worker": "background.js"
   },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "eye.png",
-      "48": "eye.png",
-      "128": "eye.png"
+      "16": "assets/Images/eye.png",
+      "48": "assets/Images/eye.png",
+      "128": "assets/Images/eye.png"
     }
   },
   "content_scripts": [
@@ -23,7 +23,12 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["*.png", "*.jpg", "*.jpeg", "*.mp3"],
+      "resources": [
+        "assets/Images/*.png",
+        "assets/Images/*.jpg",
+        "assets/Images/*.jpeg",
+        "assets/audio/*.mp3"
+      ],
       "matches": ["<all_urls>"]
     }
   ]
