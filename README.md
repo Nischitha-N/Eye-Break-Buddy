@@ -1,28 +1,28 @@
 # 👁️ Eye Break Buddy
 
 **Take care of your eyes, one 20-second break at a time.**  
-Eye Break Buddy is a minimalist Chrome/Brave extension that gently reminds you to rest your eyes every 20 minutes using adorable animal mascots and quirky eye-care puns.
+Eye Break Buddy is a minimalist Chrome/Brave extension that gently reminds you to rest your eyes every 20 minutes — with adorable animal mascots and quirky puns that you can't ignore.
 
 ---
 
 ## 🧠 Why This Exists
 
 Too much screen time strains your eyes, affects focus, and leads to burnout.  
-Following the **20-20-20 rule** (every 20 minutes, look 20 feet away for 20 seconds) helps reduce digital eye strain.  
-This extension makes that rule *fun*, *cute*, and *impossible to ignore*.
+The **20-20-20 rule** (every 20 minutes, look 20 feet away for 20 seconds) is a science-backed way to reduce digital eye strain.  
+This extension turns that rule into something *fun*, *cute*, and *actually effective*.
 
 ---
 
 ## ✨ Features
 
 - ⏰ **Automatic Reminders** every 20 minutes
-- 🐼 **Cute animal mascots** with themed PNGs
-- 🎭 **Random puns & break messages** to make you smile
-- 🔇 **Pauses videos/audio** during break, resumes after
-- 🔊 **Plays a chime sound** at the end of each break
-- 📊 **Streak tracker** for keeping up healthy eye habits
-- 🌓 **Dark overlay** to help you actually *look away*
-- 🙈 **In a meeting? No worries.** Just toggle it off and you won’t get reminders until you're ready again.
+- 🐼 **Cute Animal Mascots** with themed PNGs
+- 📝 **Random Eye-Care Puns** and gentle nudges
+- 🔇 **Pauses videos/audio** during breaks
+- 🔊 **Chime Sound** plays when break ends
+- 📈 **Streak Tracker** for consistency
+- 🌑 **Dark Overlay** so your eyes really rest
+- 🙈 **One-Click Toggle** when you’re busy or in meetings
 
 ---
 
@@ -30,41 +30,54 @@ This extension makes that rule *fun*, *cute*, and *impossible to ignore*.
 
 | Overlay Break Example | Popup |
 |-----------------------|-------|
-| ![Break Screen](assets/Images/panda.png) | ![Popup](assets/Images/eye.png) |
+| ![Break Screen](assets/Images/Overlay-1.png) | ![Popup](assets/Images/Toggle.png) |
+| ![Break Screen](assets/Images/Overlay-2.png) | ![Popup](assets/Images/Toggle-2.png) |
+
+---
+
+## 👁️ Always Watching... Out for You
+
+<p align="center">
+  <img src="assets/Images/taskbar-mini.png" alt="Eye Break Buddy Taskbar Icon" width="300" />
+</p>
+
+> 🎶 *"I always feel like... somebody’s watching me..."*  
+> That *somebody* is your friendly **Eye Break Buddy** 👁️  
+> Keeping an eye on your screen time, not your secrets.
 
 ---
 
 ## 🔧 How It Works
 
 1. Every 20 minutes, a dark overlay appears.
-2. A random **mascot image** and **eye-care pun** is shown.
-3. All media (videos/audios) on the page **pause**.
-4. After 20 seconds (or if manually closed), the overlay disappears, media resumes, and your **streak** is recorded.
+2. A random **animal mascot** and **punny message** is displayed.
+3. Any media playing (videos, audio) **pauses**.
+4. After 20 seconds, or on manual close, the overlay disappears, media resumes, and your **streak gets updated**.
 
 ---
 
-## ✅ Installation (for testing)
+## ✅ Installation (for Testing)
 
 1. Clone or download this repo.
-2. Go to `chrome://extensions/`
-3. Enable **Developer Mode** (top right)
-4. Click **"Load unpacked"** and select the `Eye-Break-Buddy` folder.
-5. Done! You'll start getting reminders every 20 mins.
+2. Open `chrome://extensions/` in your browser.
+3. Enable **Developer Mode** (top-right corner).
+4. Click **“Load unpacked”** and select the `Eye-Break-Buddy` folder.
+5. Done! You’ll start getting reminders every 20 minutes.
 
 ---
 
 ## 🚀 Future Plans
 
-- Custom break intervals
+- Customizable reminder intervals
 - Sound on/off toggle
-- Mascot/Theme selector
-- Productivity stats
+- Theme & mascot picker
+- Break productivity stats
 
 ---
 
 ## 💖 Credits
 
-- Mascot PNGs from Flaticon(G-CAT,Freepik)
-- Built with ☕ and love by [Your Name]
+- Mascot PNGs from [Flaticon](https://www.flaticon.com/) (G-CAT, Freepik, BSD, Mehwish, Vitaly Gorbachev)
+- Crafted with caffeine, care & a tiny bit of chaos 💻☕✨ by **Nischitha**
 
 ---

@@ -4,6 +4,7 @@
   "version": "1.1",
   "description": "Reminds you to take breaks with fun animal mascots and motivation.",
   "permissions": ["alarms", "storage", "tabs", "scripting", "idle"],
+  "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "background.js"
   },
@@ -21,6 +22,7 @@
       "js": ["content.js"]
     }
   ],
+
   "web_accessible_resources": [
     {
       "resources": [
