@@ -2,7 +2,7 @@ console.log("Background script loaded");
 
 chrome.runtime.onInstalled.addListener(() => {
   console.log("Extension installed");
-  chrome.alarms.create("eyeBreakAlarm", { delayInMinutes: 1, periodInMinutes: 2 });
+  chrome.alarms.create("eyeBreakAlarm", { delayInMinutes: 1, periodInMinutes: 20 });
   console.log("Alarm created for every 20 minutes");
 });
 
