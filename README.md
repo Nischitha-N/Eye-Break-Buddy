@@ -1,7 +1,7 @@
 # 👁️ Eye Break Buddy
 
 **Take care of your eyes, one 20-second break at a time.**  
-Eye Break Buddy is a minimalist Chrome/Brave extension that gently reminds you to rest your eyes every 20 minutes — with adorable animal mascots and quirky puns that you can't ignore.
+Eye Break Buddy is a minimalist Chrome/Brave extension that gently reminds you to rest your eyes every 20 minutes with adorable animal mascots and quirky puns that you can't ignore.
 
 ---
 
