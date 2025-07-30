@@ -38,7 +38,7 @@ This extension turns that rule into something *fun*, *cute*, and *actually effec
 ## 👁️ Always Watching... Out for You
 
 <p align="center">
-  <img src="assets/Images/taskbar-mini.png" alt="Eye Break Buddy Taskbar Icon" width="300" />
+  <img src="assets/Images/taskbar-mini.PNG" alt="Eye Break Buddy Taskbar Icon" width="300" />
 </p>
 
 > 🎶 *"I always feel like... somebody’s watching me..."*  
